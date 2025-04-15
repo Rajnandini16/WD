@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="employees.css"?>
+<employees>
+    <employee>
+        <id>Emp.Id: 5001</id>
+        <name>Name: Mr. A.B.C</name>
+        <position>Position: Manager</position>
+        <department>Department: Sales</department>
+        <salary>Salary: 75000</salary>
+    </employee>
+    <employee>
+        <id>Emp.Id: 5002</id>
+        <name>Name: Miss. X.Y.Z</name>
+        <position>PositionReceptionist</position>
+        <department>Department: Administration</department>
+        <salary>Salary: 45000</salary>
+    </employee>
+</employees>

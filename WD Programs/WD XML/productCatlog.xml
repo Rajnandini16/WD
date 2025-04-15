@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="productCatlog.css"?>
+<ProductCatalog>
+    <Product id="P001">
+        <Name>Smartphone</Name>
+        <Category>Electronics</Category>
+        <Price>699.99</Price>
+        <Stock>150</Stock>
+        <Description>A high-end smartphone with excellent features</Description>
+    </Product>
+    <Product id="P002">
+        <Name>Laptop</Name>
+        <Category>Electronics</Category>
+        <Price>999.99</Price>
+        <Stock>50</Stock>
+        <Description>A powerful laptop for work and play</Description>
+    </Product>
+    <Product id="P003">
+        <Name>Washing Machine</Name>
+        <Category>Home Appliances</Category>
+        <Price>499.99</Price>
+        <Stock>30</Stock>
+        <Description>A durable washing machine with smart features</Description>
+    </Product>
+</ProductCatalog>

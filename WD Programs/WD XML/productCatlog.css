@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f4f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Product catalog container */
+ProductCatalog {
+    display: block;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Style each product card */
+Product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e3e9f1;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+Product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image (if included) */
+Product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Product Name */
+Name {
+    font-size: 1.6em;
+    font-weight: 600;
+    color: #27ae60;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Product Category */
+Category {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Price */
+Price {
+    font-size: 1.4em;
+    color: #c0392b;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Stock information */
+Stock {
+    font-size: 1.1em;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+/* Description */
+Description {
+    color: #34495e;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Responsive Design: Grid layout for product catalog */
+@media (min-width: 768px) {
+    ProductCatalog {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    Product {
+        flex-direction: column;
+    }
+}
+
+/* Responsive Design: Mobile-first layout */
+@media (max-width: 768px) {
+    ProductCatalog {
+        padding: 20px;
+    }
+
+    Product {
+        width: 100%;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+}
